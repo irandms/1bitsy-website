@@ -46,10 +46,10 @@ make
 Black Magic Probe to your 1Bitsy using the JTAG ribbon cable. Make sure that you
 plug in the Black Magic Probe first so that it's virtual serial interfaces get
 indexed first. You can use the `dmesg` command to inspect what your linux kernel
-is finding and doing while you are connecting thisgs together. Your 1Bitsy might
+is finding and doing while you are connecting things together. Your 1Bitsy might
 already have some firmware that exposes a serial port, which will interfere with
 the instructions below. So make sure that your Black Magic Probe got
-/dev/ttyACM0 and /dew/ttyACM1 assigned and not some other number. Of course you
+/dev/ttyACM0 and /dev/ttyACM1 assigned and not some other number. Of course you
 can adjust the commands further down in case the device files have different
 names.
 
@@ -142,7 +142,7 @@ git submodule update
 make
 ```
 
-5: Connect Black Magic Probe and your 1Bitsy to the computer. Also connect the
+5: Connect the Black Magic Probe and your 1Bitsy to the computer. Also connect the
 Black Magic Probe to your 1Bitsy using the JTAG ribbon cable. You can look in
 `About This Mac`->`System Report...`->`USB` if it is listing
 `Black Magic Probe`, to make sure everything works the way it is supposed to.
